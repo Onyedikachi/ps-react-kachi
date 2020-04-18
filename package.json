@@ -30,6 +30,7 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
+    "highlight.js": "9.10.0",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -135,5 +136,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "chokidar": "1.6.1",
+    "npm-run-all": "4.0.2",
+    "react-docgen": "2.14.0"
   }
 }
