@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Docs from './docs/Docs';
+import '../node_modules/highlight.js/styles/arta.css';
 
 ReactDOM.render(
   <React.StrictMode>
