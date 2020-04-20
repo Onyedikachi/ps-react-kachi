@@ -75,7 +75,8 @@
     "build:docs": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy:docs": "npm run build:docs",
-    "deploy:docs": "gh-pages -d scripts/build.js"
+    "deploy:docs": "gh-pages -d scripts/build.js",
+    "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js"
   },
   "eslintConfig": {
     "extends": "react-app"
